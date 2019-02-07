@@ -11,20 +11,14 @@
 		<div class="container">
 			<div class="login-screen row align-items-center">
 				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-					<form action="index.html">
-						<div class="login-container">
-							<div class="row no-gutters">
-								<div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
-									<div class="login-box">
+					<div class="login-box">
 											<a href="#" class="login-logo">
 											<img src="{{asset('img/logo-web.png')}}" alt="Unify Admin Dashboard" />
 										</a>
 										<div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" >Bienvendio</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                        <h5 class="modal-title" >Bienvenido</h5>
+                        
                     </div>
                     <div class="modal-body">
                         <form role="form" method="POST" action="{{ route('login') }}">
